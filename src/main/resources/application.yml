@@ -1,0 +1,10 @@
+server:
+  port: 9000
+
+zipkin:
+  serviceName: zipkin-hello
+  url: http://10.243.140.62:9411
+  connectTimeout: 6000
+  readTimeout: 6000
+  flushInterval: 1
+  compressionEnabled: true
